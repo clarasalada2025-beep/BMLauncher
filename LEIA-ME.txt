@@ -1,0 +1,13 @@
+EAGLER LAUNCHER
+
+1. Extraia a pasta do ZIP.
+2. Abra index.html no Chrome ou Edge.
+3. Clique em INICIAR JOGO.
+
+Estrutura:
+- index.html: tela do launcher
+- css/style.css: aparência
+- js/launcher.js: ações dos botões
+- game/index.html: arquivo Eaglercraft enviado
+
+Observação: o cliente enviado carrega recursos WASM-GC e pode exigir suporte do navegador. O arquivo referencia aimbot.js, que não veio junto; esse recurso externo não estará disponível. Para melhor compatibilidade, execute em um servidor HTTP local em vez de abrir como file:// caso o navegador bloqueie recursos locais.

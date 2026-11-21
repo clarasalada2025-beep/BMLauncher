@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eagler Launcher</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="cube">◆</span><span>EAGLER<span class="muted">LAUNCHER</span></span></div>
+      <span class="version">CLIENT 1.8 · WASM-GC</span>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow"><span class="dot"></span> CLIENTE LOCAL DETECTADO</div>
+      <h1>Seu mundo.<br><span>Suas regras.</span></h1>
+      <p>Inicie o Eaglercraft diretamente pelo launcher local. Seus arquivos do jogo ficam separados na pasta <b>game</b>.</p>
+      <div class="actions">
+        <button id="launchBtn" class="launch"><span>▶</span> INICIAR JOGO</button>
+        <button id="fullscreenBtn" class="secondary">TELA CHEIA</button>
+      </div>
+      <div class="status"><span class="status-light"></span><span id="statusText">Pronto para iniciar</span></div>
+    </section>
+
+    <section class="bottom">
+      <div><small>PLATAFORMA</small><b>EaglercraftX 1.8</b></div>
+      <div><small>EXECUÇÃO</small><b>Navegador · Local</b></div>
+      <div><small>ARQUIVO</small><b>game/index.html</b></div>
+    </section>
+    <footer>ZX / EAGLER LAUNCHER <span>BUILD 1.0.0</span></footer>
+  </main>
+  <script src="js/launcher.js"></script>
+</body>
+</html>
